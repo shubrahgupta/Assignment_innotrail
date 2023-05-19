@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drag and Drop Table</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td><div id="box1" draggable="true" ondragstart="startDrag(event)">100</div></td>
+      <td><div id="box2" draggable="true" ondragstart="startDrag(event)">200</div></td>
+      <td><div id="box3" draggable="true" ondragstart="startDrag(event)">300</div></td>
+    </tr>
+    <tr>
+      <td><div id="box4" draggable="true" ondragstart="startDrag(event)">400</div></td>
+      <td><div id="box5" draggable="true" ondragstart="startDrag(event)">500</div></td>
+      <td><div id="box6" draggable="true" ondragstart="startDrag(event)">600</div></td>
+    </tr>
+    <tr>
+      <td><div id="box7" draggable="true" ondragstart="startDrag(event)">700</div></td>
+      <td><div id="box8" draggable="true" ondragstart="startDrag(event)">800</div></td>
+      <td><div id="box9" draggable="true" ondragstart="startDrag(event)">900</div></td>
+    </tr>
+
+  </tbody>
+
+</table>
+<button id="undo">Undo</button>
+<script src="script.js"></script>
+</body>
+</html>
